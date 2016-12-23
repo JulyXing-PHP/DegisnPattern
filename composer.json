@@ -1,0 +1,43 @@
+{
+    "name": "设计模式(PHP)",
+    "description": "设计模式(PHP)学习。",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "JulyXing",
+            "email": "julyxing.io@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packagist.phpcomposer.com"
+        },
+        {
+            "packagist": false
+        }
+    ],
+    "require": {
+        "php": ">5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=5.5.4",
+        "squizlabs/php_codesniffer": "1.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPattern\\": ""
+        }
+    },
+    "scripts": {
+        "test": [
+            "@composer install",
+            "phpunit --testdox"
+        ]
+    },
+    "config": {
+        "vendor-dir": "include",
+        "bin-dir": "sbin",
+        "secure-http": false
+    }
+}

@@ -6,14 +6,10 @@
  * @license  GPL-3.0 +
  */
 
-namespace DegisnPattern\Singleton\Test;
-
-chdir(dirname(__DIR__));
-
-require_once 'include/composer/ClassLoader.php';
+namespace DesignPattern\Singleton\Test;
 
 use PHPUnit_Framework_TestCase as PHPUnit;
-use DegisnPattern\Singleton\Singleton;
+use DesignPattern\Singleton\Singleton;
 
 class SingletonTest extends PHPUnit
 {
@@ -27,7 +23,7 @@ class SingletonTest extends PHPUnit
         $first = Singleton::getInstance();
         $second = Singleton::getInstance();
 
-        $this->assertInstanceOf('DegisnPattern\Singleton\Singleton', $first);
+        $this->assertInstanceOf('DesignPattern\Singleton\Singleton', $first);
         $this->assertSame($first, $second);
     }
 }

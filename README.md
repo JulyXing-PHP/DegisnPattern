@@ -1,4 +1,4 @@
-# DegisnPattern
+# DesignPattern
 设计模式（PHP）学习。
 
 **备注:** 转载自 **刘伟技术博客** [http://blog.csdn.net/lovelion/article/details/17517213](http://blog.csdn.net/lovelion/article/details/17517213)

@@ -6,7 +6,7 @@
  * @license  GPL-3.0 +
  */
 
-namespace DegisnPattern\Singleton;
+namespace DesignPattern\Singleton;
 
 final class Singleton
 {
